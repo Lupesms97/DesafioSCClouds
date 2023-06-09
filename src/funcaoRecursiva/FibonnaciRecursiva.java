@@ -8,7 +8,7 @@ public class FibonnaciRecursiva {
 
     public static List<Integer> fiboList = new ArrayList<>();
 
-    public static void showFibo(int x) {
+    public static void showFiboRecursive(int x) {
         System.out.println(fiboList);
         System.out.printf("Complex: O valor correspondente ao item na posição %d é o %d", x, fiboList.get(x-1));
         System.out.println();
