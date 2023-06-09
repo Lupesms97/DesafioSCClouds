@@ -11,7 +11,8 @@ public class FibonnaciRecursiva {
     public static void showFiboList(int x) {
         System.out.println(fiboList);
         System.out.printf("Complex: O valor correspondente ao item na posição %d é o %d", x, fiboList.get(x-1));
-
+        System.out.println();
+        System.out.printf("Simple: O valor correspondente ao item na posição %d é o %d", x, fiboFunctionSimple(x-1));
     }
 
     public static List<Integer> fiboFunctionComplex(int x) {
@@ -37,7 +38,12 @@ public class FibonnaciRecursiva {
         return fiboList;
     }
 
+    public static int fiboFunctionSimple(int x){
+        if(x <= 1 )return x;
 
+        return  fiboFunctionSimple(x-1) + fiboFunctionSimple(x-2);
+
+    }
 
 
 
