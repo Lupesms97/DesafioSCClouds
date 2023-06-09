@@ -11,7 +11,7 @@ public class PrimeNumberLinear {
     public static void primeLinear(int x){
 
         for(int j = 2; j <= x; j++){
-            if(ValidationPrime.isPrime(x)) primeList.add(x);
+            if(ValidationPrime.isPrime(j)) primeList.add(j);
         }
     }
 
