@@ -1,7 +1,7 @@
-package Validador;
+package validation;
 
 public class ValidationNumber {
-    public static boolean isNumero(String entrada) {
+    public static boolean isNumber(String entrada) {
         try {
             double numero = Double.parseDouble(entrada);
             return true;
