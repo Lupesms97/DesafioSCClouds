@@ -1,12 +1,12 @@
-package funcaoRecursiva;
+package recursive;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FibonnaciRecursiva {
+public class FibonnaciRecursive {
 
-    public static List<Integer> fiboList = new ArrayList<>();
+    static List<Integer> fiboList = new ArrayList<>();
 
     public static void showFiboRecursive(int x) {
         System.out.println(fiboList);
